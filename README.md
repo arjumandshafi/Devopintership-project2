@@ -27,7 +27,9 @@ cd YOUR_REPO: in this write main.yaml, dockerfile, docker-compose.yaml, app.js, 
 then push the files to github repo:
 
 git add .
+
 git commit -m "added files"
+
 git push -f https://github.com/arjumandshafi/Devopintership-project2
 
 Run locally with Docker Compose:
@@ -56,5 +58,7 @@ docker -p 3000:3000 arjumand123/my-ci-cd-project
 
 
 Expected Output:
+
 Browser should display:
+
 Hello from GitHub Actions Pipeline!
